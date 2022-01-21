@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <link 
+        rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+        crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>DISENIA - Diseño estructural</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./images/diseniaLogo.svg" width="120" class="d-inline-block align-top" alt=""></a>
+            <ul class="nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#mapa">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#stripe">Servicios</a>
+                  </li>
+              </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>
+                DISENIA
+            </h1>
+            <p>
+                Ingeniería y detallamiento
+            </p>
+            <button class="btn btn-primary">
+                Conoce más
+            </button>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container mt-5 mb-5">
+            <div  class="row justify-content-center">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/concrete.jpg" alt="Edificios en concreto">
+                        <div class="card-body">
+                          <h5 class="card-title">Estructuras en concreto</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/steel.jpg" alt="Edificios en concreto">
+                        <div class="card-body">
+                        <h5 class="card-title">Estructuras métalicas</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/tower.jpg" alt="Edificios en concreto">
+                        <div class="card-body">
+                        <h5 class="card-title">Estructuras telecom</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+                
+    </section>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-5">
+                    <img src="./images/contact.svg" alt="Dibujo de un sobre">
+                </div>
+                <div>
+                    <h3>
+                        ¿Necesitas ayuda con tu proyecto?
+                    </h3>
+                    <p>
+                        Para consultas e información, déjanos tu dirección de correo electrónico
+                    </p>
+                </div>
+            </div>
+            <form action="">
+                <label for="email">Correo electrónico</label>
+                <div class="d-flex ">
+                    <div class="flex-fill mr-2">                
+                        <input type="email" id="email" class="form control"/>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <!-- Tira de productos 2 -->
+        <div class="container mt-5 mb-5" id="stripe">
+            <h2>
+                Servicios
+            </h2>
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="card">
+                        <div 
+                            title="Diseño asistido por computador"
+                            class="cover cover-small"
+                            style="background-image:url(images/reelCad.jpg)"
+                        ></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Memorias de cálculo</h5>
+                            <a href="#" class="btn btn-primary">Información</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div 
+                            title="Planos"
+                            class="cover cover-small"
+                            style="background-image:url(images/reelBlueprint.jpg)"
+                        ></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Detallado y planos</h5>
+                            <a href="#" class="btn btn-primary">Información</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div 
+                            title="Consultoría y asesoría"
+                            class="cover cover-small"
+                            style="background-image:url(images/reelConsult.jpg)"
+                        ></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Consultoría</h5>
+                            <a href="#" class="btn btn-primary">Información</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div 
+                            title="Visitas técnicas"
+                            class="cover cover-small"
+                            style="background-image:url(images/reelVisit.jpg)"
+                        ></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Visitas técnicas</h5>
+                            <a href="#" class="btn btn-primary">Información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section>
+        <div class="container mt-5 mb-5" id="mapa">
+            <h2>
+                Ubicación
+            </h2>
+            <h4>
+                Visítanos aquí:
+            </h4>
+            <p>
+                Calle 36 # 46-08 Edif. Plaza Arrayanes. Itagüí
+            </p>
+            <div class="responsive-iframe">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.908713800893!2d-75.6196158!3d6.167277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4988f4ed97cb8c8b!2sPlaza%20Arrayanes!5e0!3m2!1ses-419!2sco!4v1642780976805!5m2!1ses-419!2sco" 
+                    width="600" height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <p class="col-md-4 mb-0 text-muted">
+                  © 2021 Disenia SAS
+                </p>          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="#mapa" class="nav-link px-2 text-muted">Ubicación</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Acerca de</a></li>
+                <li class="nav-item"><a href="#stripe" class="nav-link px-2 text-muted">Servicios</a></li>
+              </ul>
+            </footer>
+          </div>
+    </section>
+</body>
+</html>
+
